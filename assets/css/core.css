@@ -87,12 +87,6 @@ h6 {
     h6 {
       font-size: 13px; } }
 
-p {
-  max-width: 580px; }
-  @media screen and (min-width: 680px) {
-    p {
-      max-width: 640px; } }
-
 a {
   color: #222;
   padding-bottom: 2px;
