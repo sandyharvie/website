@@ -27,7 +27,7 @@
             <div class="clearfix">
                 <p> PuddleStore is a fault-tolerant, strongly consistent distributed file system that allows users to create, update, read, and delete files through a command-line interface. </p>
 
-                <p> Based on the <a href="http://oceanstore.cs.berkeley.edu/publications/papers/pdf/asplos00.pdf">OceanStore</a> project and written in Go, it uses <a href="https://zookeeper.apache.org/">Apache ZooKeeper</a> as a membership server, <a href="http://www.srhea.net/papers/tapestry_jsac.pdf">Tapestry</a> to store data blocks, and <a href="https://raft.github.io/raft.pdf">Raft</a> to commit changes. The <a href="https://grpc.io">gRPC</a> framework is used to facilitate client-server communication, as well as communication amongst Tapestry nodes and Raft nodes. </p>
+                <p> Based on the <a href="http://oceanstore.cs.berkeley.edu/publications/papers/pdf/asplos00.pdf" target="_blank">OceanStore</a> project and written in Go, it uses <a href="https://zookeeper.apache.org/" target="_blank">Apache ZooKeeper</a> as a membership server, <a href="http://www.srhea.net/papers/tapestry_jsac.pdf" target="_blank">Tapestry</a> to store data blocks, and <a href="https://raft.github.io/raft.pdf" target="_blank">Raft</a> to commit changes. The <a href="https://grpc.io" target="_blank">gRPC</a> framework is used to facilitate client-server communication, as well as communication amongst Tapestry nodes and Raft nodes. </p>
 
                 <p> PuddleStore utilizes a copy-on-write approach when modifying file system objects (files and directories). To facilitate this, file system objects are given a constant Active GUID (AGUID), which maps to a Version GUID (VGUID). The VGUID mapped to by the AGUID references the current version of a file system object which can be obtained through Tapestry. Raft maintains these mappings, thus ensuring that modifications to the file system occur in a causal and total order from the perspective of the client. </p>
 
@@ -44,8 +44,8 @@
 
                     <div class="float-right-md">
                         <p>
-                            <a class="mr-2" href="../assets/resume.pdf">Résumé</a>
-                            <a class="mr-2" href="https://www.linkedin.com/in/sandyharvie">LinkedIn</a>
+                            <a class="mr-2" href="../assets/resume.pdf" target="_blank">Résumé</a>
+                            <a class="mr-2" href="https://www.linkedin.com/in/sandyharvie" target="_blank">LinkedIn</a>
                             <a href="mailto:christopher_harvie@brown.edu">Email</a>
                         </p>
                     </div>
