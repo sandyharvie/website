@@ -28,7 +28,7 @@ hr {
 
 body {
   color: #222;
-  font-family: "Droid Sans Mono", courier;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.9; }
@@ -43,12 +43,12 @@ h4, h5, h6, p {
   margin: 16px 0; }
 
 h1, h2, h3 {
-  font-family: "Droid Sans Mono", courier;
-  font-weight: 600;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   line-height: 1.3; }
 
 h4, h5, h6 {
-  font-family: "Droid Sans Mono", courier;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
   font-weight: 600; }
 
 h1 {
