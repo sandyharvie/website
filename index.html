@@ -1,7 +1,5 @@
 <html>
-
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <meta name="description" content="Sandy Harvie is a student at Brown University in Providence, Rhode Island.">
@@ -9,76 +7,48 @@
         <title>Sandy Harvie</title>
 
         <link rel="icon" href="favicon.ico"/>
-
-        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Roboto:700" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/core.css">
-
     </head>
 
     <body>
-
-        <div class="container mb-4 mb-md-5">
-
-            <div class="mt-4 mt-md-5">
-                <h1 class="mt-0">Sandy Harvie is a student at <a href="http://brown.edu/" target="_blank">Brown University</a> in Providence, Rhode Island.</h1>
-
-                <h3 class="mt-3 mt-md-4 mb-0">
-                    <a class="mr-2" href="about/index.html">About</a>
-                    <a class="mr-2" href="assets/resume.pdf" target="_blank">Resume</a>
-                    <a class="mr-2" href="https://linkedin.com/in/sandyharvie" target="_blank">LinkedIn</a>
-                    <a href="mailto:christopher_harvie@brown.edu">Email</a>
-                </h3>
-            </div>
-
-            <div class="mt-4 mt-md-5">
-                <h5>Projects</h5>
-
-                <hr>
-
-                <div class="clearfix">
-                    <div class="row fit-width">
-                        <div class="float-left column-12 column-md-6 pr-md-3 mt-3 mt-md-4">
-                            <h2 class="mt-0 mb-2"><a href="puddlestore/index.html">PuddleStore</a></h2>
-                            <p class="m-0">Designed and developed a fault-tolerant, strongly consistent distributed file system</p>
-                        </div>
-                        
-                        <div class="float-left column-12 column-md-6 pl-md-3 mt-3 mt-md-4">
-                            <h2 class="mt-0 mb-2"><a href="maps/index.html">Maps</a></h2>
-                            <p class="m-0">Developed a web mapping service with real-time traffic updates, similar to Google Maps</p>
-                        </div>
-                    </div>
-
-                    <div class="row fit-width">
-                        <div class="float-left column-12 column-md-6 pr-md-3 mt-3 mt-md-4">
-                            <h2 class="mt-0 mb-2"><a href="blast/index.html">Blast</a></h2>
-                            <p class="m-0">Developed, in a group of four, a web application that allows organizations to receive text messages from customers and remarket to them with powerful segmentation tools</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="container mt-3 mb-3">
+            <div>
+                <img class="logo mr-3" src="assets/images/beach.png">
             </div>
 
             <div class="mt-3 mt-md-4">
-                <div class="clearfix">
-                    <hr>
+                <h1>Hi, I'm Sandy.</h1>
 
-                    <div class="mt-3">
-                        <div class="float-left-md">
-                            <h4>Sandy Harvie</h4>
-                        </div>
+                <h4 class="mt-2">
+                    I study computer science at <a href="https://www.brown.edu/" target="_blank">Brown University</a> in Providence, Rhode Island.
+                </h4>
 
-                        <div class="float-right-md">
-                            <p>
-                                <a class="mr-2" href="assets/resume.pdf" target="_blank">Resume</a>
-                                <a class="mr-2" href="https://www.linkedin.com/in/sandyharvie" target="_blank">LinkedIn</a>
-                                <a href="mailto:christopher_harvie@brown.edu">Email</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <h4 class="mt-2">
+                    In the past, I've worked as a software engineering intern at <a href="https://www.twosigma.com">Two Sigma</a> and <a href="https://www.blend.com">Blend</a>.
+                </h4>
+
+                <h4 class="mt-2">
+                    I'm interested in all things software, but my primary interests lie in operating systems, security, and distributed computing.
+                </h4>
+
+                <h4 class="mt-2">
+                    If you'd like to learn more, check out my <a href="assets/resume.pdf">resume</a>, connect with me on <a href="https://www.linkedin.com/in/sandyharvie" target="_blank">LinkedIn</a>, or send me an <a href="mailto:sandy_harvie@brown.edu">email</a>.
+                </h4>
             </div>
 
-        </div>
+            <div class="pt-3 pt-md-4">
+                <hr>
 
+                <div class="mt-2 flex flex-center flex-justify flex-wrap">
+                    <p class="m-0 mr-3">Sandy Harvie</p>
+
+                    <p id="lastUpdated" class="m-0">Last Updated: </p>
+                </div>
+            </div>
+        </div>
     </body>
 
+    <script>
+        document.getElementById("lastUpdated").innerHTML += document.lastModified;
+    </script>
 </html>
